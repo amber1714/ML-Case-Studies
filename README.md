@@ -1,10 +1,11 @@
-# KNN Regression
+# Linear, Ridge and Lasso Regression
 
-Predicts California median house values using KNN Regression.
+Compares three regression approaches on the California Housing dataset.
 
 ## Key points
-- Feature scaling
-- Train/test split
+- Linear Regression
+- Ridge (L2 regularization)
+- Lasso (L1 regularization)
+- Alpha comparison
 - MAE, MSE, RMSE and R²
-- K values from 1 to 30
-- Best K selected using minimum RMSE
+- Coefficient comparison
