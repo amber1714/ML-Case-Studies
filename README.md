@@ -1,11 +1,10 @@
-# Linear, Ridge and Lasso Regression
+# Intelligent Cleaning Robot
 
-Compares three regression approaches on the California Housing dataset.
+A 5×5 cleaning environment implemented using Q-Learning.
 
 ## Key points
-- Linear Regression
-- Ridge (L2 regularization)
-- Lasso (L1 regularization)
-- Alpha comparison
-- MAE, MSE, RMSE and R²
-- Coefficient comparison
+- Agent, environment, states and actions
+- Reward/penalty design
+- Epsilon-greedy exploration
+- Q-table updates
+- Reward-vs-episode visualization
