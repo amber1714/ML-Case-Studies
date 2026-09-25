@@ -1,10 +1,18 @@
-# Intelligent Cleaning Robot
+# El Niño / La Niña ML Analysis
 
-A 5×5 cleaning environment implemented using Q-Learning.
+Uses historical NOAA ONI data to classify ENSO conditions.
+
+## Dataset
+`data/ENSO_NOAA_ONI_1950_2026.csv`
 
 ## Key points
-- Agent, environment, states and actions
-- Reward/penalty design
-- Epsilon-greedy exploration
-- Q-table updates
-- Reward-vs-episode visualization
+- El Niño / Neutral / La Niña classes
+- Lagged ONI features
+- Time-aware train/test split
+- Random Forest classifier
+- Accuracy, precision, recall, F1-score
+- Confusion matrix
+- Feature importance
+
+## Important
+The current ONI value is intentionally excluded from the ML input features because the target class was created from that value.
